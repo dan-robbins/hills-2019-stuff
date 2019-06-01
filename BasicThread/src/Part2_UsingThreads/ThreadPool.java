@@ -16,7 +16,12 @@ class WorkerThread implements Runnable {
         System.out.println(Thread.currentThread().getName()+" (End)");
     }
     private void processMessage() {
-        try {  Thread.sleep(2000);  } catch (InterruptedException e) { e.printStackTrace(); }
+        try {
+            Thread.sleep(2000);
+        }
+        catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }
 
