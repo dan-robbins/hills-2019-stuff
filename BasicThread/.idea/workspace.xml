@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ac70e1f-4f09-4389-a0e7-8b2383870e91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Part2_UsingThreads/ThreadPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicThread/Counter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicThread/Deadlock$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicThread/Deadlock$ThreadDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicThread/Deadlock$ThreadDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicThread/Deadlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicThread/MyRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicThread/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicThread/RaceConditions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicThread/ThreadCreation$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicThread/ThreadCreation$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicThread/ThreadCreation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Deadlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1_ThreadSafety/Deadlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParallelWorkers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_UsingThreads/ParallelWorkers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RaceConditions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1_ThreadSafety/RaceConditions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreadCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part0_Creation/ThreadCreation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_UsingThreads/WordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicThread/Part1_ThreadSafety/Deadlock$ThreadDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicThread/Part1_ThreadSafety/Deadlock$ThreadDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicThread/Part2_UsingThreads/ThreadWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicThread/Part2_UsingThreads/ThreadWorker.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,30 +17,31 @@
     <session id="-824384304">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1911" />
+          <entry key="java" value="1919" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1911" />
+          <entry key="JAVA" value="1919" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="23" />
+          <entry key="java" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="23" />
+          <entry key="JAVA" value="30" />
         </counts>
       </usages-collector>
     </session>
@@ -63,29 +49,28 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Part1_ThreadSafety/RaceConditions.java">
+        <entry file="file://$PROJECT_DIR$/src/Part0_Creation/ThreadCreation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="75">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Part0_Creation/ThreadCreation.java">
+        <entry file="file://$PROJECT_DIR$/src/Part1_ThreadSafety/RaceConditions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-              <folding>
-                <element signature="e#65#66#0" expanded="true" />
-                <element signature="e#92#93#0" expanded="true" />
-                <element signature="e#116#117#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Part1_ThreadSafety/Deadlock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -93,17 +78,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Part2_UsingThreads/ParallelWorkers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            <state relative-caret-position="225">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Part2_UsingThreads/WordCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="-191">
+              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,18 +103,9 @@
               <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
                 <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Part1_ThreadSafety/Deadlock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -159,6 +138,8 @@
         <option value="$PROJECT_DIR$/src/Part1_Safety/RaceConditions.java" />
         <option value="$PROJECT_DIR$/src/Part0_Creation/ThreadCreation.java" />
         <option value="$PROJECT_DIR$/src/Part1_ThreadSafety/Deadlock.java" />
+        <option value="$PROJECT_DIR$/src/Part2_UsingThreads/ParallelWorkers.java" />
+        <option value="$PROJECT_DIR$/src/Part2_UsingThreads/WordCount.java" />
       </list>
     </option>
   </component>
@@ -174,7 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -183,33 +163,11 @@
               <item name="BasicThread" type="b2602c69:ProjectViewProjectNode" />
               <item name="BasicThread" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BasicThread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicThread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicThread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicThread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Part0_Creation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicThread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicThread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Part1_ThreadSafety" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicThread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicThread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Part2_UsingThreads" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Part2_UsingThreads.ThreadPool">
+  <component name="RunManager" selected="Application.Part2_UsingThreads.WordCount">
     <configuration name="Part0_Creation.ThreadCreation" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Part0_Creation.ThreadCreation" />
       <module name="BasicThread" />
@@ -290,12 +248,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.14072494" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.14225501" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -303,7 +261,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.329718" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -317,7 +275,7 @@
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.14072494" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.14225501" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -343,60 +301,53 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ParallelWorker.java" />
     <entry file="file://$PROJECT_DIR$/src/ThreadWorker.java" />
-    <entry file="file://$PROJECT_DIR$/src/Part2_UsingThreads/ParallelWorkers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Part2_UsingThreads/WordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Part2_UsingThreads/ThreadPool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
             <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Part0_Creation/ThreadCreation.java">
+    <entry file="file://$PROJECT_DIR$/src/Part2_UsingThreads/ParallelWorkers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <element signature="e#65#66#0" expanded="true" />
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Part1_ThreadSafety/Deadlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Part1_ThreadSafety/RaceConditions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Part1_ThreadSafety/Deadlock.java">
+    <entry file="file://$PROJECT_DIR$/src/Part0_Creation/ThreadCreation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        <state relative-caret-position="75">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Part2_UsingThreads/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="51" column="95" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
