@@ -1,3 +1,5 @@
+package Part1_ThreadSafety;
+
 public class Deadlock {
     private static final Object Lock1 = new Object();
     private static final Object Lock2 = new Object();
@@ -28,12 +30,12 @@ public class Deadlock {
     private static class ThreadDemo2 extends Thread {
         public void run() {
             synchronized (Lock2) {
-                System.out.println("Thread 2: Holding lock 1...");
+                System.out.println("Thread 2: Holding lock 2...");
 
                 try {
                     Thread.sleep(10);
                 } catch (InterruptedException ignored) {}
-                System.out.println("Thread 2: Waiting for lock 2...");
+                System.out.println("Thread 2: Waiting for lock 1...");
 
                 synchronized (Lock1) {
                     System.out.println("Thread 2: Holding lock 1 & 2...");

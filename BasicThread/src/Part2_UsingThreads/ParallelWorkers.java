@@ -1,3 +1,5 @@
+package Part2_UsingThreads;
+
 import java.util.LinkedList;
 
 class ParallelWorker extends Thread {
@@ -31,7 +33,7 @@ class ParallelWorker extends Thread {
 }
 
 /**
- * This class runs numThreads instances of ParallelWorker in parallel to do
+ * This class runs numThreads instances of Part2_UsingThreads.ParallelWorker in parallel to do
  * some amount of simulated computationally intensive work
  */
 public class ParallelWorkers {
@@ -70,11 +72,11 @@ public class ParallelWorkers {
 	
 	/**
 	 * Does a simulated amount of work by using numThreads instances of
-	 * ParallelWorker to do some amount of work.
+	 * Part2_UsingThreads.ParallelWorker to do some amount of work.
 	 */
 	private void doWork(LinkedList<Integer> list) throws InterruptedException {
 		
-		// start numThreads instances of ParallelWorker
+		// start numThreads instances of Part2_UsingThreads.ParallelWorker
 		for (int i=0; i<workers.length; i++) {
 			workers[i] = new ParallelWorker(list);
 			workers[i].start();

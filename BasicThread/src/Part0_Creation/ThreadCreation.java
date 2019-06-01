@@ -1,3 +1,5 @@
+package Part0_Creation;
+
 class MyThread extends Thread {
     public MyThread(String name) {
         super(name);

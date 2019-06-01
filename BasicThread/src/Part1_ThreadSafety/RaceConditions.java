@@ -1,5 +1,4 @@
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
+package Part1_ThreadSafety;
 
 class Counter  implements Runnable{
     private int c = 0;
